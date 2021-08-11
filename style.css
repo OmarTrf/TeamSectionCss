@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: linear-gradient(#cddc39,#009688);
+	height: 100vh;
+}
+.row{
+	background: #ffe501;
+	width: 80%;
+	margin: 4% auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	height: auto;
+}
+.col{
+	flex-basis: 25%;
+	text-align: center;
+	overflow: hidden;
+}
+img{
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+.col p{
+	margin: 20px 0;
+}
+.social-link .fa{
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	border:1px solid #111;
+	margin: 0 7px;
+	cursor: pointer;
+    transition: transform .8s;
+}
+.social-link .fa:hover{
+	background: #111;
+	border:none;
+	color: #ffe501;
+	transform: translateY(-6px);
+}
+.col:hover img{
+	transform: scale(1.1);
+}
